@@ -1,0 +1,212 @@
+/*GENERAL*/
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-family: serif;
+    font-size: 45px;
+    color:black;
+}
+/*
+h2{
+    color: white;
+    font-size: 20px;
+
+}
+*/
+h3{
+    color: black;
+    font-size:30px;
+
+}
+h4{
+    font-size: 24px;
+    color: black;
+}
+p{
+    line-height: 20px;
+    color: black;
+}
+small{
+    font-size: 13px;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear: both;
+
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.orange{
+    color: orangered;
+}
+
+/*HEADER*/
+header{
+    height: 120px;
+}
+header h1{
+    float: left;
+    margin-top: 25px;
+}
+header nav{
+    float:right; 
+    margin: 50px 30px 0px 0px;
+}
+header nav ul li{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 20px;
+}
+header nav ul li a:hover{
+    background: aquamarine;
+    border-radius: 5px;
+
+}
+/*MAIN */
+ #main{
+     height: 250px;
+     background: brown;
+ }
+ .presentation li{
+     margin: 20px;
+     display: inline-block;
+     color: white;
+
+ }
+ .presentation #prenom{
+     background: aquamarine;
+     border-radius: 5px;
+ }
+ .presentation #nom{
+    background: aquamarine;
+    border-radius: 5px;
+}
+
+/*Profile */
+#Profile{
+    padding: 60px 0;
+    background: gray;
+    height: 550px;
+}
+#profile{
+    padding: 5px 0px 20px 200px;
+}
+#Profile article{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+     
+}
+#Profile  article:first-child{
+    margin-right: 20px;
+}
+.overlay{
+    background: wheat;
+    height:500px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+article h4{
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+#Profile  ul{
+    text-align:left;
+    margin-bottom: 20px;
+    
+}
+#Profile  ul li{
+    padding-left: 30px;
+    
+}
+/* Project */
+#projects h3{
+    padding: 15px 0px 20px 200px;
+
+}
+
+/*CONTACT*/
+#contact{
+    margin-top: 50px;
+    padding: 60px 0;
+    text-align: center;
+}
+#bouton-mail{
+    background: orangered;
+    border-radius: 2px;
+}
+#contact h3{
+    text-transform: uppercase;
+    margin:0 auto 20px auto;
+    border-bottom: 1px solid green;
+    padding-bottom: 20px;
+}
+form{
+    margin: 60px 0 20px 0;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color:brown;
+}
+form input{
+    padding: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+.button-3{
+    color: black;
+    font-size: 15px;
+    font-weight:bold;
+    padding: 11px;
+    background-color:orangered;
+    border-radius: 10px;
+}
+/*FOOTER*/
+footer{
+    height: 130px;
+    background-color:gray ;
+}
+footer h1{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bold;
+
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: ghostwhite;
+
+}
+ 
+
